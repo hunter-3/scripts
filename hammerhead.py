@@ -1,3 +1,4 @@
+#!/bin/env python3
 # import os > commands to terminal
 import os
 
