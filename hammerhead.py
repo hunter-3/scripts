@@ -19,4 +19,4 @@ os.system("for i in `cat ip.txt`; do whois $i >> whois.txt; done")
 # Shodan API for running IPs through
 
 # Display Folder contents
-os.system("ls -al")# Python modules
+os.system("ls -al")
