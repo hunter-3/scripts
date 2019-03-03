@@ -7,7 +7,7 @@ import os
 os.system("mergecap *.pcap -w merged.pcap")
 
 # Output > IP.csv using tshark > Distinct count on src ip's
-os.system("tshark -r ddos.pcap -T fields -e ip.src | sort | uniq -c | sort -nr > ddos.csv")
+os.system("tshark -r ddos.pcap -T fields -e ip.src | sort | uniq -c | sort -nr > ip.csv")
 
 #  Text file for whois and shodan
 #       Command tshark -r ddos.pcap -T fields -e ip.src | uniq > ip.txt
